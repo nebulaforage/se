@@ -8,6 +8,7 @@ CMD ["python", "hello.py"]
 
 rename dockerfile.txt dockerfile
 docker build -t python313-sai .
+docker run python313-sai
 docker login
 docker tag python313-yesh sailokeshnalabothu/python313-yesh
 docker push sailokeshnalabothu/python313-yesh
